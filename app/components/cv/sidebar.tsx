@@ -7,7 +7,7 @@ export default function Sidebar() {
             <div className="bg-sky-900 ">
                 <div className="flex justify-center p-4">
                     <div className="w-56 h-56 relative">
-                        <Image src={"/young-bearded-man-with-striped-shirt.jpg"} alt="alt" fill className="object-cover rounded-full" />
+                        <Image src={"/cv/young-bearded-man-with-striped-shirt.jpg"} alt="alt" fill className="object-cover rounded-full" />
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center ">

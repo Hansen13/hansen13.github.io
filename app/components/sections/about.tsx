@@ -1,7 +1,9 @@
+import MainHeader from "../helper/main-header";
+
 export default function About() {
     return (
         <div>
-            <p>Privat</p>
+            <MainHeader>Privat</MainHeader>
         </div>
     )
 }

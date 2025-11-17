@@ -1,7 +1,9 @@
+import MainHeader from "../helper/main-header";
+
 export default function Education() {
     return (
-        <div className="h-[3000px]">
-            <p>Uddannelse</p>
+        <div className="">
+            <MainHeader>Uddannelse</MainHeader>
         </div>
     )
 }

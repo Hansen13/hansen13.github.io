@@ -1,6 +1,3 @@
-import Image from "next/image";
-import { calculateAge } from "./utils/helperMethods";
-import Link from "next/link";
 import WorkExperience from "./components/sections/workExperience";
 import Education from "./components/sections/education";
 import About from "./components/sections/about";
@@ -12,7 +9,7 @@ export default function Home() {
       <div className="w-92 ">
        <Sidebar></Sidebar>
       </div>
-      <div className="bg-white w-full text-black">
+      <div className="flex  flex-col bg-white w-full text-black p-6">
         <WorkExperience></WorkExperience>
         <Education></Education>
         <About></About>
