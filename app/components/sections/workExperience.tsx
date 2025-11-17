@@ -2,8 +2,8 @@ import MainHeader from "../helper/main-header";
 import WorkComponent from "../helper/work.comp";
 
 export default function WorkExperience() {
-    const littleGiantsPraktik = ["Golang","Flutter","gRPC","Javscript, Typescript","GraphQL"]
-    const littleGiants4semester = ["Golang","Flutter","gRPC","Javscript, Typescript","GraphQL"]
+    const littleGiantsPraktik = ["Golang","Flutter","gRPC","Javscript, Typescript"]
+    const littleGiants4semester = ["Javscript, Typescript", "Node", "GraphQL"]
 
 
     
