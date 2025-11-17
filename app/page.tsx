@@ -12,7 +12,7 @@ export default function Home() {
       <div className="w-92 ">
        <Sidebar></Sidebar>
       </div>
-      <div className="bg-white w-full text-black">
+      <div className="flex  flex-col bg-white w-full text-black p-6">
         <WorkExperience></WorkExperience>
         <Education></Education>
         <About></About>
