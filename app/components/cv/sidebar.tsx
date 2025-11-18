@@ -2,14 +2,14 @@ import { calculateAge } from "@/app/utils/helperMethods";
 import Image from "next/image";
 
 export default function Sidebar() {
-    const basepath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+    // const basepath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
     return (
         <div className="sticky top-0">
             <div className="bg-sky-900 ">
                 <div className="flex justify-center p-4">
                     <div className="w-56 h-56 relative">
-                        <Image src={`${basepath}/young-bearded-man-with-striped-shirt.jpg`} alt="alt" fill className="object-cover rounded-full" />
+                        <Image src={`./young-bearded-man-with-striped-shirt.jpg`} alt="image not loading" fill className="object-cover rounded-full" />
                     </div>
                 </div>
                 <div className="flex flex-col justify-center items-center ">
