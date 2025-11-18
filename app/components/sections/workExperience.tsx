@@ -17,7 +17,12 @@ export default function WorkExperience() {
     
     return (
         <div className="flex flex-col gap-4">
-            <MainHeader>Erhvers erfaring</MainHeader>
+            <div className="relative">
+                <button className="absolute flex justify-end right-0 mr-10 md:hidden">
+                    <span className="material-symbols-outlined ">sync_alt</span>
+                </button>
+                <MainHeader>Erhvers erfaring</MainHeader>
+            </div>
             <WorkComponent
                 header="Unimicro"
                 date="30/01/2023 - Nu"

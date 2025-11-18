@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function MainHeader({
-  children,
+  children
 }: Readonly<{
   children: React.ReactNode;
 }>) {

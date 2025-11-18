@@ -5,8 +5,8 @@ import Sidebar from "./components/cv/sidebar";
 
 export default function Home() {
   return (
-    <div className="flex flex-row w-300 mx-auto drop-shadow-2xl">
-      <div className="w-92 ">
+    <div className="flex flex-row mx-auto drop-shadow-2xl min-w-[600px] w-screen md:max-w-300  ">
+      <div className="hidden md:block  w-96">
        <Sidebar></Sidebar>
       </div>
       <div className="flex flex-col bg-white w-full text-black p-6 gap-4">
