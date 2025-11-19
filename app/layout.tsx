@@ -12,6 +12,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+// const robotoSerif = Roboto_Serif({
+//   variable: "--font-roboto-serif",
+//   weight: ["400"],
+//   subsets: ["latin"]
+// })
+
+// const robotoMono = Roboto_Mono({
+//   variable: "--font-roboto-mono",
+//   subsets: ["latin"]
+// })
 export const metadata: Metadata = {
   title: "CV Andreas Hansen",
   description: "CV Andreas Hansen",

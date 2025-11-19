@@ -10,7 +10,12 @@ export default function WorkComponent({header, subheader, date, location, listIt
             </div>
                 <h2 className="text-sm flex items-end font-extralight">{location}</h2>
             <ul className="list-disc pl-8">
-                {listItems.map((x) => <li key={x}>{x}</li>)}
+                {listItems.map((x) => <li key={x}>
+                    {
+                    x.endsWith(":")
+                    ? <p className="font-bold"> {x} </p>
+                    : <p> {x} </p>}
+                    </li>)}
             </ul>
         </div>
     )
