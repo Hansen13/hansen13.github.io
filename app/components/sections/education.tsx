@@ -2,6 +2,7 @@ import MainHeader from "../helper/main-header";
 import WorkComponent from "../helper/work.comp";
 
 export default function Education() {
+    // list items
     const datamatiker = ["Teknologier:", "C#, Golang, Node.js", "Fokus områder:", "IT sikkerhed, Projektstyring, tilegning af ny viden", "Værktøjer:", "Docker, Scrum, Kanban, Github, Docker, system udvikling", "Database:", "MS SQL, MongoDB","API:", "Rest, GraphQL, gRPC"]
     const brandmand = ["Brandmand, Redningsspecialist", "Teknisk Arbejdsleder", "Udvidet Førstehjælp", "C Kørekort"]
     const htx = ["Matematik A", "Fysik A", "Dansk A", "Engelsk A", "El-Teknik A"]

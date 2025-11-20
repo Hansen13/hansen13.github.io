@@ -1,6 +1,5 @@
 import WorkExperience from "./components/sections/workExperience";
 import Education from "./components/sections/education";
-import About from "./components/sections/about";
 import Sidebar from "./components/cv/sidebar";
 import Profile from "./components/sections/profile";
 
@@ -14,7 +13,6 @@ export default function Home() {
         <Profile></Profile>
         <WorkExperience></WorkExperience>
         <Education></Education>
-        <About></About>
       </div>
     </div>
   );
