@@ -4,7 +4,7 @@ import TechnicalCompenteces from "./technical";
 
 export default function Sidebar() {
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 text-white">
       <div className="bg-sky-900 ">
         <div className="flex justify-center p-4">
           <div className="w-56 h-56 relative">
