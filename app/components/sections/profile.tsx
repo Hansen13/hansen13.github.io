@@ -10,9 +10,9 @@ export default function Profile() {
       </div>
       <MainHeader>Profil</MainHeader>
       <p className="mr-10">
-        Fullstack udvikler med over 3 års erfaring indenfor C#, Angular, Next.js
-        og mange andre. Jeg brænder for at være kreativ i mit arbejde, og bygge
-        løsninger som virker i praksis.
+        Full stack udvikler med over 3 års erfaring indenfor C#, Angular,
+        Next.js og mange andre. Jeg brænder for at være kreativ i mit arbejde,
+        og bygge løsninger som virker i praksis.
       </p>
       <p className="mr-10">
         Jeg trives både med at arbejde selvstændigt og som en del af et team,

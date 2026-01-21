@@ -11,7 +11,7 @@ export default function Education() {
     "API: Rest, GraphQL, gRPC",
   ];
   const brandmand = [
-    "Brandmand, Redningsspecialist",
+    "Brandmand, redningsspecialist",
     "Teknisk arbejdsleder",
     "Udvidet førstehjælp",
     "C kørekort",
