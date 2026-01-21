@@ -12,9 +12,9 @@ export default function Education() {
   ];
   const brandmand = [
     "Brandmand, Redningsspecialist",
-    "Teknisk Arbejdsleder",
-    "Udvidet Førstehjælp",
-    "C Kørekort",
+    "Teknisk arbejdsleder",
+    "Udvidet førstehjælp",
+    "C kørekort",
   ];
   const htx = ["Matematik A", "Fysik A", "Dansk A", "Engelsk A", "El-Teknik A"];
   return (
