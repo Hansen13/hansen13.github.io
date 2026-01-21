@@ -4,7 +4,7 @@ export default function PersonalCompetencies() {
       <h1 className="text-xl font-bold">Personlige kompetencer</h1>
       <div>
         <h1 className="font-extrabold text-lg tracking-widest">Sprog:</h1>
-        <p className="tracking-tight">&#127465;&#127472; Dansk - Modersmål</p>
+        <p className="tracking-tight">&#127465;&#127472; Dansk - modersmål</p>
         <p className="tracking-tight">&#127468;&#127463; Engelsk - flydende</p>
         <p className="tracking-tight">
           &#127475;&#127476; Norsk - meget godt kendskab

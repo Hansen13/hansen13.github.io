@@ -21,7 +21,7 @@ export default function Sidebar() {
 
           <div className="flex flex-col justify-center items-center ">
             <h1 className="text-2xl max-w-dvh">Andreas Hansen</h1>
-            <h1 className="text-2xl">Full stack Udvikler</h1>
+            <h1 className="text-2xl">Full stack udvikler</h1>
           </div>
         </div>
       </div>

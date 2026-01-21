@@ -11,13 +11,13 @@ export default function Profile() {
       <MainHeader>Profil</MainHeader>
       <p className="mr-10">
         Full stack udvikler med over 3 års erfaring indenfor C#, Angular,
-        Next.js og mange andre. Jeg brænder for at være kreativ i mit arbejde,
-        og bygge løsninger som virker i praksis.
+        Next.js og mange andre. Jeg brænder for at være kreativ i mit arbejde og
+        bygge løsninger som virker i praksis.
       </p>
       <p className="mr-10">
         Jeg trives både med at arbejde selvstændigt og som en del af et team,
         hvor man kan sparre og lære af hinanden. Jeg er nysgerrig på nye
-        teknologier og søger en rolle jeg kan udvikle mig fagligt.
+        teknologier og søger en rolle, hvor jeg kan udvikle mig fagligt.
       </p>
     </div>
   );
