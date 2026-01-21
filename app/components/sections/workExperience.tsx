@@ -4,7 +4,7 @@ import WorkComponent from "../helper/work.comp";
 export default function WorkExperience() {
   // list items
   const unimicro = [
-    "Udviklede og vedligeholdt kernefunktioner i løn- og salgssystemer, som dagligt understøtter over 100.000 daglige brugere,",
+    "Udviklede og vedligeholdt kernefunktioner i løn- og salgssystemer, som dagligt understøtter over 80.000 måndelige brugere,",
     "Frontendudvikling i Angular som en del af det daglige arbejde, med udvikling af nye features og bug fixing",
     "Backendudvikling i C# med opsætning af API services, test mm.",
     "Medlem af en trivselskomité, som planlagde fælles aktiviteter for hele organisationen",
@@ -26,7 +26,7 @@ export default function WorkExperience() {
   const CabinPlant = ["Blazor", "MSSQL"];
   const CycleServiceNordic = [
     "Teamleder fra 2019-2021",
-    "Lager arbejder fra 2017-2019",
+    "Lagerarbejder fra 2017-2019",
   ];
 
   return (
@@ -35,7 +35,7 @@ export default function WorkExperience() {
       <WorkComponent
         header="Unimicro"
         link="https://unimicro.no/"
-        subheader="Fullstack udvikler"
+        subheader="Full stack udvikler"
         date="jan 2023 - Nu"
         location="Bergen, Norge"
         listItems={unimicro}
@@ -61,7 +61,7 @@ export default function WorkExperience() {
 
       <WorkComponent
         header="CabinPlant"
-        subheader="Studie job"
+        subheader="Studiejob"
         link="https://www.cabinplant.com/"
         date="2021 - 2022"
         location="Fyn, Haarby"

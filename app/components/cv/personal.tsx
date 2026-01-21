@@ -14,7 +14,7 @@ export default function PersonalCompetencies() {
         <h1 className="font-extrabold text-lg tracking-widest">Fritid:</h1>
         <p className="tracking-tight">&#x1F4BB; Programmering</p>
         <p className="tracking-tight">&#x1F310; Self hosting</p>
-        <p className="tracking-tight">&#x1F3C3; Løbe/Cykel træning</p>
+        <p className="tracking-tight">&#x1F3C3; Løbetræning</p>
         <p className="tracking-tight">&#x1F4D0; 3D Printing</p>
         <p className="tracking-tight">&#x1F3B2; Brætspil</p>
         <p className="tracking-tight">&#x1F3AE; Computerspil</p>

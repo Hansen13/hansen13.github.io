@@ -21,23 +21,26 @@ export default function Sidebar() {
 
           <div className="flex flex-col justify-center items-center ">
             <h1 className="text-2xl max-w-dvh">Andreas Hansen</h1>
-            <h1 className="text-2xl">Fullstack Udvikler</h1>
+            <h1 className="text-2xl">Full stack Udvikler</h1>
           </div>
         </div>
       </div>
-      {/*min-h-[calc(100svh-320px)]*/}
       <div className="flex flex-col bg-sky-700 p-4 gap-2 flex-1">
         {/* Phone number */}
         <div className="flex flex-row gap-1 p-1">
           <span className="material-symbols-outlined">phone_enabled</span>
-          <p className="text-sm flex items-center">(+47) 46 67 49 83</p>
+          <p className="text-sm flex items-center underline">
+            <a href="tel:+4746674983">(+47) 46 67 49 83</a>
+          </p>
         </div>
         {/* Email */}
         <div className="flex flex-row gap-1 p-1">
           <span className="material-symbols-outlined">mail</span>
 
-          <p className="text-sm flex items-center">
-            Andreas.mikkel.hansen33@gmail.com
+          <p className="text-sm flex items-center underline">
+            <a href="mailto:andreas.mikkel.hansen33@gmail.com">
+              Andreas.mikkel.hansen33@gmail.com
+            </a>
           </p>
         </div>
         {/* Hjemmeside */}

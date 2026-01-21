@@ -18,7 +18,7 @@ export default function WorkComponent({
       <div className="flex justify-between">
         <div className="flex gap-2">
           <h1
-            className={`text-xl font-bold ${link ? "hover:text-sky-400 text-sky-700" : ""}`}
+            className={`text-xl font-bold ${link ? "hover:text-sky-400 text-sky-700 hover:underline" : ""}`}
           >
             <a href={link} target="_blank">
               {header}
