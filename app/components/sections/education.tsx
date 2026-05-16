@@ -4,7 +4,7 @@ import WorkComponent from "../helper/work.comp";
 export default function Education() {
   // list items
   const datamatiker = [
-    "Teknologier:   C#, Golang, Node.js",
+    "Teknologier:   C#, Golang, Node.js, ASP.NET, .NET CORE",
     "Fokus områder: IT sikkerhed, Projektstyring, tilegning af ny viden",
     "Værktøjer: Docker, Scrum, Kanban, Github, Docker, system udvikling",
     "Database: MS SQL, MongoDB",

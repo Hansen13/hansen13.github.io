@@ -11,7 +11,9 @@ export default function TechnicalCompetencies() {
         <h1 className="font-extrabold text-lg tracking-widest text-white">
           Frameworks:
         </h1>
-        <p className="tracking-tight">Angular, Next.js, Blazor, Flutter</p>
+        <p className="tracking-tight">
+          Angular, Next.js, Blazor, Flutter, ASP.NET
+        </p>
 
         <h1 className="font-extrabold text-lg tracking-widest text-white">
           API:
